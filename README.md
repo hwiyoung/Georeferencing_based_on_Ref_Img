@@ -47,7 +47,7 @@ Georeferencing_based_on_Ref_Img is a SW to determine pose of images based on ref
 
 ## Image_Matching_based_on_Ref_Img
 * Prerequisite
-  * OpenCV 3.x
+  * OpenCV 3.x - https://opencv.org/releases.html
 * Input - Download files from [HERE(input)](http://bit.ly/2waSloD) !!!
   * ./Input/(images)
   * ./Input/Img_List.txt - First line must have the name of the image want to determine
@@ -64,7 +64,7 @@ Georeferencing_based_on_Ref_Img is a SW to determine pose of images based on ref
 ## BA_based_on_Ref_Img_Python
 = Bundle Adjustment(1 - Preprocess_IP_List.py, 2 - BBA_with_Reference_Images_v2.py)
 * Prerequisite
-  * numpy
+  * numpy - in command window, type <u>pip install numpy</u>
 * Input (1)
   * ./data_Pre/TP.txt
   * ./data_Pre/ImgList.txt
